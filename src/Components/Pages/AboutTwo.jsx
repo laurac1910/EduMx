@@ -6,11 +6,7 @@ import {
   bs1,
   bs2,
   bs3,
-  user3,
-  comment,
-  q,
-  calender,
-  clockIcon,
+  
 } from "../../constant/images";
 
 import PageBanner from "../PageBanner";
