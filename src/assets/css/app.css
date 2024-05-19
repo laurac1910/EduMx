@@ -55,7 +55,7 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
-  text-transform: capitalize;
+  
   /* 2 */
 }
 
@@ -4187,9 +4187,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
   text-transform: uppercase;
 }
 
-.capitalize {
-  text-transform: capitalize;
-}
+
 
 .not-italic {
   font-style: normal;

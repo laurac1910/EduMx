@@ -26,7 +26,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="imge-box absolute right-[-60px] top-1/2  -translate-y-1/2 hidden xl:block  ">
-          <img src={man3} alt="" className="rounded-lg " style={{width:'550px',height:'580px'}} />
+          <img src={man3} alt="" className="rounded-lg " style={{width:'550px',height:'580px',marginTop:'75px'}} />
         </div>
       </div>
     </section>

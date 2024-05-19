@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo/logo.svg";
+
 
 
 const MobileMenu = ({ activeMenu, setActiveMenu }) => {
@@ -16,7 +16,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
             to={"/react-templates/edumim/home"}
             className="brand-logo flex-none mr-10 "
           >
-            <img src={logo} alt="logo" />
+         
           </Link>
           <span
             className=" text-3xl text-black cursor-pointer rt-mobile-menu-close"

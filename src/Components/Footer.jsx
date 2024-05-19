@@ -11,18 +11,23 @@ const Footer = () => {
           <div className="single-footer">
             <div className="lg:max-w-[270px]">
               <a href="#" className="mb-10 block">
-                <img src={footerLogo} alt="" />
+                <div className="max-w-[150px] xl:pt-[100px] md:pt-5 md:pb-5  pb-5 xl:pb-5 space-y-8">
+                  <h2 className="text-white">
+                    Programa educativo{" "}
+                    <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom">
+                      México
+                    </span>{" "}
+                  </h2>
+                </div>
               </a>
-              <p>
-                Creemos que nuestras acciones y palabras tienen un impacto
-                duradero en la formación de la ética y moral de nuestros hijos
-              </p>
             </div>
           </div>
           <div className="single-footer">
             <div className="flex space-x-[80px]">
               <div className="flex-1 lg:flex-none">
-                <h4 className="mb-8 text-2xl font-bold text-white">Contactanos</h4>
+                <h4 className="mb-8 text-2xl font-bold text-white">
+                  Contáctanos
+                </h4>
                 <ul className="list-item space-y-5">
                   <li>
                     <a href="#">TEL</a>
@@ -30,7 +35,6 @@ const Footer = () => {
                   <li>
                     <a href="#">EMAIL</a>
                   </li>
-               
                 </ul>
               </div>
               <div className="flex-1 lg:flex-none ">
@@ -39,19 +43,20 @@ const Footer = () => {
                   <li>
                     <a href="#">Legal</a>
                   </li>
-                 
+
                   <li>
-                    <a href="#" >Politica de privacidad</a>
+                    <a href="#">Politica de privacidad</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="single-footer" style={{ marginLeft: '5rem' }}>
+          <div className="single-footer" style={{ marginLeft: "5rem" }}>
             <h4 className="mb-8 text-2xl font-bold text-white">Newsletter</h4>
             <div className="mb-8">
-              Recorriendo todo <span className="text-primary underline">Mexico</span>{" "}
-     para transmitir nuestro mensaje de educacion y valores
+              Recorriendo todo{" "}
+              <span className="text-primary underline">Mexico</span> para
+              transmitir nuestro mensaje de educacion y valores
             </div>
           </div>
         </div>
