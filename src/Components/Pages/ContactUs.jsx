@@ -1,5 +1,5 @@
 import React from "react";
-import { call, mail, map } from "../../constant/images";
+import { call, mail } from "../../constant/images";
 import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 import Header from "../Header";

@@ -12,16 +12,12 @@ import {
   c6,
   c7,
   clock,
-  file,
   review,
   star,
 } from "../constant/images";
 
 const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
-  const listIcon = [
-    "clarity:grid-view-line",
-    "ant-design:unordered-list-outlined",
-  ];
+  
   return (
     <Tab.Group>
      

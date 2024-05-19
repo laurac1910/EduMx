@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo/logo.svg";
+
 import MobileMenu from "./MobileMenu";
 
 const Header = () => {

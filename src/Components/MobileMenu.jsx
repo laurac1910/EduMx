@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/logo.svg";
-import { fbIcon, twIcon, pnIcon, insIcon } from "../constant/images";
+
 
 const MobileMenu = ({ activeMenu, setActiveMenu }) => {
   
