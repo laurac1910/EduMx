@@ -121,7 +121,7 @@ const Accordion = () => {
             </ul>
           </div>
           <div>
-            <img src={faq} alt="" />
+            <img src={faq} alt="" className="rounded-lg" />
           </div>
         </div>
       </div>
