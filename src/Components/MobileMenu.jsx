@@ -30,20 +30,20 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
         <div className="mobile-menu mt-6 flex-1 ">
           <ul className="menu-active-classNamees">
             <li>
-              <Link to={"/react-templates/edumim/home-three"}>Inicio</Link>
+              <Link to="/HomeThree">Inicio</Link>
             </li>
 
             <li>
-              <Link to={"/react-templates/edumim/about-two"}>
+              <Link to="/AboutTwo">
                 Sobre nosotros
               </Link>
             </li>
             <li>
-              <Link to={"/react-templates/edumim/courses"}>Cursos</Link>
+              <Link to="/Courses">Cursos</Link>
             </li>
             
             <li>
-              <Link to={"/react-templates/edumim/contacts"}>Contacto</Link>
+              <Link to="/ContactUs">Contacto</Link>
             </li>
           </ul>
         </div>
