@@ -26,38 +26,33 @@ const Header = () => {
         <div className="main-header py-8">
           <div className="container">
             <div className=" flex items-center justify-between ">
-              <Link
-                to={"/react-templates/edumim/home-three"}
-                className="brand-logo flex-none lg:mr-10 md:w-auto  max-w-[220px]  "
-              >
-                {/* <img src={logo} alt="logo" style={{width:'400px'}}/> */}
-              </Link>
+            
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
                     <li >
-                      <Link to={"/react-templates/edumim/home-three"}>
+                      <Link to="/HomeThree">
                         Inicio
                       </Link>
                       
                     </li>
                     <li >
-                      <Link to={"/react-templates/edumim/about-two"}>Sobre Nosotros</Link>
+                      <Link to="/AboutTwo">Sobre Nosotros</Link>
                       
                     </li>
                     <li className="menu-item-has-children">
-                    <Link to={"/react-templates/edumim/courses"}>Cursos</Link>
+                    <Link to="/Courses">Cursos</Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/courses"}>
-                            Courses
+                          <Link to="/Courses">
+                            Cursos
                           </Link>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <Link to={"/react-templates/edumim/contacts"}>
+                      <Link to="/ContactUs">
                         Contacto
                       </Link>
                     </li>
