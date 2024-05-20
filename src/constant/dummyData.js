@@ -154,10 +154,10 @@ export const teamData = [
   { img: team4, name: "Selina Gomez", title: "UI/UX Designer" },
 ];
 export const instructorData = [
-  { img: team5, name: "Patricia Camargo", title: "Licenciada" },
-  { img: team6, name: "Fernando ", title: "Licenciado" },
-  { img: team7, name: "Cristina Rojas", title: "Maestra" },
-  { img: team8, name: "Alejandra Monroy", title: "Maestra" },
+  { img: team5, name: "Patricia Camargo" },
+  { img: team6, name: "Fernando Amézquita " },
+  { img: team7, name: "Cristina Rojas" },
+  { img: team8, name: "Alejandra Monroy" },
 ];
 
 export const blogsData = [

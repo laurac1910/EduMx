@@ -35,21 +35,15 @@ const Header = () => {
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
-                    <li className={`menu-item-has-children `}>
+                    <li >
                       <Link to={"/react-templates/edumim/home-three"}>
                         Inicio
                       </Link>
                       
                     </li>
-                    <li className="menu-item-has-children">
-                      <Link to={"/react-templates/edumim/about-two"}>Más</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to={"/react-templates/edumim/about-two"}>
-                            Sobre Nosotros
-                          </Link>
-                        </li>
-                      </ul>
+                    <li >
+                      <Link to={"/react-templates/edumim/about-two"}>Sobre Nosotros</Link>
+                      
                     </li>
                     <li className="menu-item-has-children">
                     <Link to={"/react-templates/edumim/courses"}>Cursos</Link>

@@ -2,12 +2,7 @@ import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
 import About from "../HomeThreeComponents/About";
-import {
-  bs1,
-  bs2,
-  bs3,
-  
-} from "../../constant/images";
+import { bs1, bs2, bs3, bs4, bs5, bs6 } from "../../constant/images";
 
 import PageBanner from "../PageBanner";
 
@@ -19,7 +14,6 @@ const AboutTwo = () => {
       <Header />
       <PageBanner title={"Sobre Nosotros"} pageTitle="Nosotros" />
       <About />
-      <Topics />
       <div className="nav-tab-wrapper tabs  section-padding">
         <div className="container">
           <div className="grid grid-cols-12 gap-[30px]">
@@ -33,30 +27,12 @@ const AboutTwo = () => {
                   </h3>
                   <p className="mt-6">
                     En el sector educativo, específicamente nos corresponde ser
-                    parte del equipo PROGRAMA NACIONAL DE VALORES, nuestra
-                    misión es realizar pláticas dirigidas especialmente a los
-                    Padres de Familia , con el fin de poder dar apoyo a la labor
-                    tan importante que hace el docente con el alumno, en el
+                    parte de?importante que hace el docente con el alumno, en el
                     sentido de que los Padres de Familia somos los encargados de
                     inculcar valores desde edades tempranas en el seno de la
                     familia, simultáneamente en trabajar en un engranaje con los
                     mismos docentes
                   </p>
-                  {/* <blockquote className=" bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white">
-                  <img src={q} alt="" />
-                  <div className=" text-xl font-semibold my-6">
-                    “ Education is one of the most powerful aspects of life.
-                    Education and learning allow us to make sense of the world
-                    around us, the world inside of us, and where we fit within
-                    the world.”
-                  </div>
-                  <div className=" flex items-center space-x-3">
-                    <span className=" inline-flex h-[3px] w-12 bg-white"></span>
-                    <span className=" text-xl font-semibold">
-                      Rosalina D. Jackson
-                    </span>
-                  </div>
-                </blockquote> */}
                   <p>
                     Para una lograr una óptima educación no solo en
                     conocimientos, sino también en el valor del ser humano. A
@@ -65,9 +41,38 @@ const AboutTwo = () => {
                     involucrado en este proceso, para que con el trabajo de los
                     docentes, logremos excelentes resultados.
                   </p>
+                  <h3 className="mt-5">Nuestros Reconocimientos:</h3>
                   <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
-                    <img src={bs2} alt="" />
-                    <img src={bs3} alt="" />
+                    <img
+                      src={bs2}
+                      alt=""
+                      className=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
+            border-t-4 border-transparent hover:border-secondary "
+                    />
+                    <img
+                      src={bs3}
+                      alt=""
+                      className=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
+            border-t-4 border-transparent hover:border-secondary "
+                    />
+                    <img
+                      src={bs4}
+                      alt=""
+                      className=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
+            border-t-4 border-transparent hover:border-secondary "
+                    />
+                    <img
+                      src={bs5}
+                      alt=""
+                      className=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
+            border-t-4 border-transparent hover:border-secondary "
+                    />
+                    <img
+                      src={bs6}
+                      alt=""
+                      className=" bg-white shadow-box3 rounded-[8px] transition-all duration-100 pt-10 pb-[28px] px-6 text-center hover:shadow-box4
+            border-t-4 border-transparent hover:border-secondary "
+                    />
                   </div>
                 </div>
               </div>
@@ -75,6 +80,8 @@ const AboutTwo = () => {
           </div>
         </div>
       </div>
+      <Topics />
+     
 
       <Footer />
     </>

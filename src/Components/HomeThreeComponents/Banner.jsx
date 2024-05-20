@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="xl:max-w-[570px] lg:max-w-[770px] xl:py-[160px] lg:py-28 md:py-20 py-14">
           <h1 className="inline-block">
             Programa Educativo
-            <div className="inline-block lg:flex md:flex">
+            <div className=" lg:flex md:flex">
               <span className=" text-secondary  bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom ">
                 México
               </span>

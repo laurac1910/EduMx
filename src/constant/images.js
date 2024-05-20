@@ -109,6 +109,9 @@ import bThumb3 from "../assets/images/all-img/b-thub-3.png";
 import bs1 from "../assets/images/all-img/b-s-1.png";
 import bs2 from "../assets/images/all-img/b-s-2.png";
 import bs3 from "../assets/images/all-img/b-s-3.png";
+import bs4 from "../assets/images/all-img/b-s-4.png";
+import bs5 from "../assets/images/all-img/b-s-5.png";
+import bs6 from "../assets/images/all-img/b-s-6.png";
 import user3 from "../assets/images/svg/user3.svg";
 import comment from "../assets/images/svg/comments.svg";
 import q from "../assets/images/svg/q.svg";
@@ -130,6 +133,9 @@ import blog1 from "../assets/images/all-img/blog-1.png";
 import blog2 from "../assets/images/all-img/blog-2.png";
 import blog3 from "../assets/images/all-img/blog-3.png";
 export {
+  bs4,
+  bs5,
+  bs6,
   t9,
   blog1,
   blog2,

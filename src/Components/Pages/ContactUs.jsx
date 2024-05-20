@@ -9,18 +9,18 @@ const ContactUs = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Contactanos"} pageName="Contacto" />
+      <PageBanner title={"Contáctenos"} pageName="Contacto" />
       <div class="nav-tab-wrapper tabs  section-padding">
         <div class="container">
           <div class=" grid grid-cols-12 gap-[30px]">
             <div class="xl:col-span-5 lg:col-span-6 col-span-12 ">
            
               <h4 class="column-title ">
-                Obten información <span class="shape-bg">Hoy</span>
+                Obtenga información <span class="shape-bg">Hoy</span>
               </h4>
               <div>
                 ¿Listo para comenzar a fortalecer los lazos familiares y
-                cultivar valores duraderos? ¡Contáctanos hoy mismo para
+                cultivar valores duraderos? ¡Contáctenos hoy mismo para
                 descubrir cómo podemos ayudarte a construir un hogar lleno de
                 amor, comunicación abierta y valores sólidos!
               </div>
@@ -32,7 +32,7 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div class="flex-1">
-                    <h4 class=" lg:text-xl text-lg mb-1">Correo Electronico:</h4>
+                    <h4 class=" lg:text-xl text-lg mb-1">Correo Electrónico:</h4>
                     <div>Contactyourmail@gmail.com</div>
                   </div>
                 </li>
@@ -43,7 +43,7 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div class="flex-1">
-                    <h4 class=" lg:text-xl text-lg mb-1">Llamanós:</h4>
+                    <h4 class=" lg:text-xl text-lg mb-1">Llámenos:</h4>
                     <div>+88012 2910 1781, +88019 6128 1689</div>
                   </div>
                 </li>

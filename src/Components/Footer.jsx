@@ -20,7 +20,7 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Política de privacidad</a>
                   </li>
                 </ul>
               </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="mb-8">
               Recorriendo todo{" "}
               <span className="text-primary underline">Mexico</span> para
-              transmitir nuestro mensaje de educacion y valores
+              transmitir nuestro mensaje de educación y valores
             </div>
           </div>
         </div>
